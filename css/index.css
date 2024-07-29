@@ -1,0 +1,200 @@
+body{
+    background-color: #eaf1f7;
+}
+
+
+#mortgage-card {
+    border-radius: 13px;
+    width: 45rem;
+}
+
+#mortgageContainer {
+    height:100vh;
+}
+
+.divider {
+    width: 1px;
+    /* background-color: #dee2e6; */
+    height: 100%;
+}
+
+.left-side {
+    padding: 12px;
+    font-size: 13px;
+    /* width: 26rem; */
+}
+
+.right-side {
+    padding: 12px;
+    background-color: #142537;
+    border-radius: 13px;
+    border-bottom-left-radius: 26px;
+    border-top-left-radius: 1px;
+    color: #bab6b6;
+    font-size: 13px;
+    /* width: 20rem; */
+}
+
+.title {
+    margin: 0 3rem 0 14px;
+    font-size: 21px;
+}
+
+.repayment {
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 7px;
+    /* width: 15rem; */
+    border-radius: 7px;
+}
+
+.interest-only {
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 7px;
+    /* width: 15rem; */
+    border-radius: 7px;
+}
+
+.repayment-label, .interestonly-label {
+    margin: 0 0 0 7px;
+}
+
+.calculate-btn {
+    background-color: #d1df49;
+    border: #d1df49;
+    color: #10104f;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+img#calculator-icon-img {
+    width: 16px;
+    margin-top: -3px;
+}
+
+.right-side-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 18px;
+    background-color: #142537;
+    border-radius: 13px;
+    border-bottom-left-radius: 82px;
+    border-top-left-radius: 1px;
+    color: #bab6b6;
+    font-size: 13px;
+}
+
+#empty-img {
+    width: 8rem;
+}
+
+.empty-para {
+    text-align: center;
+    font-size: 11px;
+}
+
+.input-group-text {
+    background-color: #e6f4ff;
+}
+
+#mortgage-form {
+    margin:2rem 0 20px 2px;
+}
+
+.completed-div {
+    margin: -5rem 0 0 0;
+    padding: 14px;
+    display:none;
+}
+
+#results-card {
+    background-color: #0c1927;
+}
+
+#result-card-body {
+    border-top: 2px solid #d1df49;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.result-title, .result-txt{
+    color: #bfbaba;
+}
+
+.monthly-result {
+    color: #d1df49;
+}
+
+hr{
+    color: darkgrey;
+}
+
+.total-result {
+    color: white;
+}
+
+#mortgage-amount:focus {
+    border: 1px solid #d1df49;
+    box-shadow: none;
+}
+
+input[type="radio"]:checked {
+    accent-color: #d1df49;
+    /* border-color:#d1df49; */
+    color:#d1df49;
+}
+
+.input-group:hover {
+    border: 1px solid #0c1927;
+    border-radius: 6px;
+}
+
+.repayment:hover, .interest-only:hover {
+    border: 1px solid #d1df49;
+}
+
+.required-field {
+    display:none;
+    color:red;
+}
+
+@media only screen and (max-width: 600px) {
+    #mortgageContainer {
+        display: block !important;
+        height: auto;
+        width: 100%;
+    }
+
+    #mortgageContainer .col {
+        padding:0;
+    }
+
+    #mortgage-card {
+        border-radius: 0;
+        height: 100vh;
+        width: auto;
+    }
+
+    .right-side-div {
+        border-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .completed-div {
+        margin: 0rem 0 0 0;
+    }
+}
