@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Mortgage-repayment-calculator
-=======
+
 # Frontend Mentor - Mortgage repayment calculator solution
 
 This is a solution to the [Mortgage repayment calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -16,8 +15,6 @@ This is a solution to the [Mortgage repayment calculator challenge on Frontend M
   - [What I learned](#what-i-learned)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -65,4 +62,3 @@ Learned how to work with classes in javascript, I wanted to practice about the c
 ## Acknowledgments
 
 I wanted to thank frontend mentor to have the wonderfull chanllenges so that I could learn and practice more.
->>>>>>> 4dd52ee (mortgage calculator)
